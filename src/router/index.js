@@ -13,6 +13,55 @@ const router = createRouter({
                     name: 'dashboard',
                     component: () => import('@/views/Dashboard.vue')
                 },
+                //Rutas nuevas
+                //Inventory Managments
+                {
+                    path: '/inventorymanagement/inventory',
+                    name: 'inventory',
+                    component: () => import('@/views/Dashboard.vue')
+                },
+                {
+                    path: '/inventorymanagement/products',
+                    name: 'products',
+                    component: () => import('@/views/Dashboard.vue')
+                },
+                {
+                    path: '/inventorymanagement/salesorders',
+                    name: 'salesorders',
+                    component: () => import('@/views/Dashboard.vue')
+                },
+                {
+                    path: '/inventorymanagement/transfers',
+                    name: 'transfers',
+                    component: () => import('@/views/Dashboard.vue')
+                },
+                {
+                    path: '/inventorymanagement/cancellations',
+                    name: 'cancellations',
+                    component: () => import('@/views/Dashboard.vue')
+                },
+                {
+                    path: '/inventorymanagement/customers',
+                    name: 'customers',
+                    component: () => import('@/views/Dashboard.vue')
+                },
+                //Company
+                {
+                    path: '/company/company',
+                    name: 'company',
+                    component: () => import('@/views/pages/company/company.vue')
+                },
+                {
+                    path: '/company/employess',
+                    name: 'employess',
+                    component: () => import('@/views/Dashboard.vue')
+                },
+                {
+                    path: '/company/departments',
+                    name: 'departments',
+                    component: () => import('@/views/Dashboard.vue')
+                },
+                //Fin rutas
                 {
                     path: '/uikit/formlayout',
                     name: 'formlayout',

@@ -9,6 +9,25 @@ const model = ref([
         items: [{ label: 'Dashboard', icon: 'pi pi-fw pi-home', to: '/' }]
     },
     {
+        label: 'Gestión del Inventario',
+        items: [
+            { label: 'Inventario', icon: 'pi pi-fw pi-check-square', to: '/inventorymanagement/inventory' },
+            { label: 'Productos', icon: 'pi pi-fw pi-cog', to: '/inventorymanagement/products' },
+            { label: 'Órdenes de venta', icon: 'pi pi-fw pi-dollar', to: '/inventorymanagement/salesorders' },
+            { label: 'Transferencias', icon: 'pi pi-fw pi-sort-alt', to: '/inventorymanagement/transfers' },
+            { label: 'Cancelaciones', icon: 'pi pi-fw pi-ban', to: '/inventorymanagement/cancellations' },
+            { label: 'Clientes', icon: 'pi pi-fw pi-users', to: '/inventorymanagement/customers' }
+        ]
+    },
+    {
+        label: 'Empresa',
+        items: [
+            { label: 'Empresas', icon: 'pi pi-fw pi-building', to: '/company/company' },
+            { label: 'Empleados', icon: 'pi pi-fw pi-user', to: '/company/employess' },
+            { label: 'Departamentos', icon: 'pi pi-fw pi-sitemap', to: '/company/departments' }
+        ]
+    },
+    {
         label: 'UI Components',
         items: [
             { label: 'Form Layout', icon: 'pi pi-fw pi-id-card', to: '/uikit/formlayout' },
